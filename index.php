@@ -1,3 +1,6 @@
+<?php
+$a="50";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +9,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <h1>Hello World <?= $a ?></h1>
 </body>
 </html>
